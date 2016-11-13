@@ -1,6 +1,5 @@
 #!/bin/bash
 
-rm  combined.out
 for i in $(seq 9); do
 	filename="20160$i-citibike-tripdata"
 	s="http://witestlab.poly.edu/bikes/$filename.zip"
